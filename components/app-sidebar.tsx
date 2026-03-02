@@ -46,22 +46,22 @@ const data = {
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
+      title: "CRM Operations",
       url: "#",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
+      title: "Data Cleaning",
+      url: "#",
+      icon: IconDatabase,
+    },
+    {
+      title: "Enrichment",
       url: "#",
       icon: IconChartBar,
     },
     {
-      title: "Projects",
-      url: "#",
-      icon: IconFolder,
-    },
-    {
-      title: "Team",
+      title: "Attribution",
       url: "#",
       icon: IconUsers,
     },
@@ -162,7 +162,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <span className="text-base font-bold tracking-tight">TruNorQ</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
